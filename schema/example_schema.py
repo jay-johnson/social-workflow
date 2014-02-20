@@ -39,5 +39,3 @@ class ExampleMasterRecords(Base):
     example_symbol_id_relationship  = relationship(ExampleStatus)
 
 # end of ExampleMasterRecords
-
-

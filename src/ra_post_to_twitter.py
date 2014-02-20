@@ -57,7 +57,7 @@ class RA_PostToTwitter(FSWebTierBaseWorkItem):
         api.update_status(tweet_text)
         
         self.lg("Done handle_posting_to_twitter", 5)
-        self.m_status['Results'] = 'SUCCESS'
+        self.m_results['Status'] = 'SUCCESS'
         
     
 ###############################################################################

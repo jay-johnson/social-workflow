@@ -48,7 +48,7 @@ class RA_PostToFacebook(FSWebTierBaseWorkItem):
         graph.put_object('me', 'feed', message=post_text)
 
         self.lg("Done handle_posting_to_facebook", 5)
-        self.m_status['Results'] = 'SUCCESS'
+        self.m_results['Status'] = 'SUCCESS'
         
     
 ###############################################################################
